@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="stylegrid.css" type="text/css">
@@ -33,16 +34,46 @@
                 
             </header>
     
-            
+            <!--carousel-->
                 <main>
-                    <img src="./img/fondo.jpg"alt="imgen de torta" >
+                    <div class="container">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./img/fondo.jpg" class="d-block w-100" alt="dulzuras">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/muffins.jpg" class="d-block w-100" alt="muffins">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/surtidos.jpg" class="d-block w-100" alt="surtidos">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                </div>
+            </div>
                 </main>
     
             </div>
             <div class="section">
                 <section>
-                    <h1>Reposteria Jorgelin Michelis
-                    </h1>
+                    <h1>Reposteria Jorgelin Michelis</h1>
                     <article>
                         <h2 class="animate__animated animate__bounceInLeft"  A que nos dedicamos</h2>
                         <p>Nos dedicamos a la elaboración artesanal de alimentos dulces y salados. Nos especialisamos en tortas de cumpleaños personalizadas a gusto de cada cliente. Contamos con una gran trayectoria y conocimientos de años en la forma creativa de preparar los alimentos. Utilizamos productos e ingredientes de primera calidad en nuestras deliciosas y exquisitas tartas y tortas aplicandoles un toque personal.
@@ -52,7 +83,7 @@
                 <section class="grid-section-parallax"></section>
                 <section class="parallax"></section>
                 <section class="video_container">
-                    <iframe src="./videos/istockphoto-928795002-640_adpp_is.mp4" src="tortas/superheroes.jpeg" alt=""></iframe>
+                     <iframe src="./videos/istockphoto-928795002-640_adpp_is.mp4" src="tortas/superheroes.jpeg" alt="Video"></iframe>
                 </section>
                        <div class="parrafo" >
                         <div data-aos="fade-up">
@@ -76,7 +107,8 @@
                 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
                 <script>
                     AOS.init();
-                  </script>
+                </script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
             
     
 

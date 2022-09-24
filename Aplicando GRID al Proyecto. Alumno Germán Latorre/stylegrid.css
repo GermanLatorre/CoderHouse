@@ -13,7 +13,8 @@ header h1 {
 }
 
 
-main img {
+main {
+  margin-top: 2%;
   width: 100%;
 } 
 nav{
@@ -39,13 +40,25 @@ h2 {
   color:chocolate;
   -webkit-text-stroke: 1px black;
   font-size: 2rem;
+  margin-left: 1%;
+  margin-bottom: 5%;
 }
 h4{
   font-size: 2rem;
 }
+h5{
+  font-size: 2rem;
+}
+.parrafo p{
+  margin-left: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+}
 footer{
   background-color: chocolate;
   display: flex;
+  height: 220px;
+  
 }
 footer p{
   font-weight: bold;
@@ -135,29 +148,138 @@ height: 20rem;
   
 }
 
-
 .postres{
- display: grid;
- grid-template-columns: repeat(2,1fr);
- grid-template-rows: repeat(3,1fr);
+  margin-left: 10%;
+  margin-right: 5%;
+  box-shadow:  50px chocolate;
+  transform: translate(10px 20px);
+  
+
+}
+
+.container-promo{
+  margin-bottom: 10%;
+}
+.carta1p{
+ background-color: burlywood;
+ margin-left: 10%;
+ border: 2px solid grey;
   
 }
-.postres img {
-  width: 21rem;
- height: 25rem;
+.carta2p{
+  background-color: burlywood;
+  border: 2px solid grey;
 }
-.img-pos{
-  width: 49%;
-  border: 2rem solid chocolate;
-  border-radius: 8%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 15%;
+.carta3p{
+  background-color: burlywood;
+  border: 2px solid grey;  
+}
+.carta3p img{
+  height: 14rem;
+}
+.promociones{
+  margin-bottom: 5%;
+}
+/*trufas*/
+.carta1t{
+
+  background-color:burlywood;
+  
+
+}
+.carta2t{
+  background-color: burlywood;
+}
+.carta3t{
+  background-color: burlywood;
+}
+.carta4t{
+  background-color: burlywood;
+  margin-top: 10%;
+}
+.carta5t{
+  background-color: burlywood;
+
+  
+}
+.carta5t img{
+  height: 24rem;
+}
+.carta6t{
+  background-color: burlywood;
+  margin-top: 10%;
+}
+.carta4t img{
+  height: 18rem;
+}
+.carta5t img{
+  height: 18rem;
+  }
+.carta6t img{
+height: 18rem;
+}
+.trufas{
+  margin-bottom: 5%;
+}
+
+
+  .carta1{
+
+    background-color:burlywood;
+    
+
+  }
+  .carta2{
+    background-color: burlywood;
+  }
+  .carta3{
+    background-color: burlywood;
+  }
+  .carta4{
+    background-color: burlywood;
+    margin-top: 10%;
+  }
+  .carta5{
+    background-color: burlywood;
+    margin-top: 10%;
+    
+  }
+  .carta5 img{
+    height: 24rem;
+  }
+  .carta6{
+    background-color: burlywood;
+    margin-top: 10%;
+  }
+  .postres{
+    margin-bottom: 5%;
+  }
+  .btn-propio{
+    background-color: dimgray;
+    border-color: black;
+    
+  }
+  .btn-propio a:hover{
+    color:yellow;
   }
   .postres p{
     font-size: 2rem;
     
   }
+  .container-promo {
+font-size: 1rem;
+  }
+  .desayuno-lista p{
+    font-size: 2rem;
+    color: brown;
+    
+  }
+  .desayuno-lista ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+  }
+
+  
   /*galeria*/
 .contenedor-galeria{
   display: grid;
@@ -165,8 +287,12 @@ height: 20rem;
   grid-template-rows: repeat(9,1fr);
  
  }
+ /*transformaciones*/
+ .header-nav a:hover{
+color: brown;
+ }
  h1:hover{
-  transform:scale(2);
+  transform:scale(1.2);
   transition:all 2s;
 }
 .grid-sub-h2{
@@ -203,28 +329,13 @@ height: 20rem;
         background-color: beige;
       }
 }
+.container-propio{
+  font-size: 2rem;
+  margin: 0%;
+
+}
     
 
-@keyframes cambioDeColores{
-  5%{
-    background-color: yellow;
-  }
-  15%{
-    background-color: brown;
-    border-radius: 50%;
-  }
-    25%{
-      width: 400px;
-    }
-    50%{
-      background-color: pink;
-      border-radius: 0;
-    }
-    90%{
-      background-color: beige;
-    }
-    }
-  
 
 
 @media only screen and (max-width: 768px) {
@@ -257,18 +368,30 @@ main img{
   width: 97%
 }
 h1{
-  width: 20%;
-  margin-left: 10%;
-  font-size: 140%;
+  
+  margin-left: 30%;
+  font-size: 200%;
   display: inline;
 }
 h2{
   display: flex;
-  font-size: 2rem;
+  font-size: 150%;
+}
+section h1{
+  margin-left: 14%;
 }
 section p{
  width: 65%;
+ margin-left: 15%;
 
+}
+.parrafo p{
+  margin-left:30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+}
+.video_container{
+  margin-left: 15%;
 }
 footer img{
   width: 20px;
@@ -312,4 +435,41 @@ footer img{
     align-items: center;
 
   }
+  /*promociones*/
+
+  .carta1t{
+    margin-top: 5%;
+  }
+  .carta2t{
+    margin-top: 5%;
+      }
+  .carta3t{
+    margin-top: 5%;
+      }
+  .carta4t{
+    margin-top: 5%;
+      }
+  .carta5t{
+    margin-top: 5%;
+      }
+  .carta6t{
+    margin-top: 5%;
+      }
+      .postres{
+        margin-left: 20%;
+      }
+      .carta1{
+        margin-top: 5%;
+      }
+      .carta2{
+        margin-top: 5%;
+          }
+      .carta3{
+        margin-top: 5%;
+              }
+      .desayuno-lista{
+        margin-left: 10%;
+      }
+  
 }
+
