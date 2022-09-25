@@ -43,6 +43,9 @@ h2 {
   margin-left: 1%;
   margin-bottom: 5%;
 }
+h3{
+  color: brown;
+}
 h4{
   font-size: 2rem;
 }
@@ -139,6 +142,15 @@ height: 20rem;
 .menu ul:hover > .submenu
 {
   display: inline-block;
+}
+/*sobre nosotros*/
+.sobre-nosotros{
+  background-color: bisque;
+}
+.container-propio p{
+  background-color: burlywood;
+  margin-left: 18%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*promociones*/
 .promo-ul li{
@@ -278,15 +290,19 @@ font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: chocolate;
   }
-
-  
-  /*galeria*/
-.contenedor-galeria{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(9,1fr);
+  .super-galeria{
+    margin-left: 2%;
+  }
+.super-galeria img{
+  height: 20rem;
+  width: 20rem;
+}
+.super-galeria img:hover{
+  transform:scale(1.2);
+  transition:all 3s;
+}
  
- }
+ 
  /*transformaciones*/
  .header-nav a:hover{
 color: brown;
@@ -469,6 +485,9 @@ footer img{
               }
       .desayuno-lista{
         margin-left: 10%;
+      }
+      .super-galeria{
+        margin-left: 22%;
       }
   
 }
