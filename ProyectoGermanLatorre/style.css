@@ -223,7 +223,7 @@ height: 18rem;
 /*promociones*/
   .carta1p{
    background-color: burlywood;
-   margin-left: 10%;
+   margin-left: 1%;
    border: 2px solid grey;
   
   }
@@ -239,7 +239,7 @@ height: 18rem;
    height: 14rem;
   }
   .promociones{
-   margin-bottom: 5%;
+    margin-bottom: 5%;
   }
 /*día del padre*/
   .carta1{
@@ -361,10 +361,7 @@ color: brown;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1,1fr);
   }
-  .header-logo img{
-    width: 7rem;
-  }
-
+ 
 nav{
   display: flex;
   flex-direction: column;
@@ -397,14 +394,6 @@ section p{
  margin-left: 15%;
 
 }
-.parrafo p{
-  margin-left:30%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: brown;
-}
-.video_container{
-  margin-left: 15%;
-}
 footer img{
   width: 20px;
   height: 20px;
@@ -415,39 +404,39 @@ footer img{
  footer form{
   width: 5%;
 }
+.header-logo img{
+  width: 7rem;
+}
+.parrafo p{
+  margin-left:30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+}
 .video_container{
+  margin-left: 15%;
   width: 72%;
 }
+
+
 .parrafo {
   width: 65%;
 }
-.postres{
-  
-  grid-template-columns: repeat(1,1fr);
-  grid-template-rows: repeat(6,1fr);
-}
-.postres img{
-  width: 15rem;
-  height: 15rem;
-}
-.img-pos{
-  width: 42%;
-  border: 1rem solid chocolate;
-  border-radius: 8%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 15%;
-  }
-  .contenedor-galeria{
+ .contenedor-galeria{
     display: flex;
     flex-direction: column;
     margin-left: 15%;
   }
-  .postres p{
-    align-items: center;
-
-  }
   /*promociones*/
+  .carta1p{
+  margin-top: 5%;
+  width: 80%;
+}
+.carta2p{
+  margin-top: 5%;
+}
+.carta3p{
+  margin-top: 5%;
+}
 
   .carta1t{
     margin-top: 5%;
@@ -485,6 +474,23 @@ footer img{
       .super-galeria{
         margin-left: 22%;
       }
-  
+    
+      .postres img{
+        width: 18rem;
+        height: 18rem;
+      }
+      .postres p{
+        align-items: center;
+    
+      }
+      .img-pos{
+        width: 42%;
+        border: 1rem solid chocolate;
+        border-radius: 8%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 15%;
+        }
+      
 }
 
